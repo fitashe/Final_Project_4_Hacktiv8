@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/pm20"
+    tools:context=".loginregister.RegisterUserActivity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/pm10"
+        android:src="@drawable/ic_phone_look"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="@dimen/pm5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        app:hintTextColor="@color/oren"
+        app:boxStrokeColor="@color/teal_200"
+        app:boxBackgroundMode="outline">
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/pm30"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppinsmedium"
+            android:hint="@string/username"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="@dimen/pm5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        app:hintTextColor="@color/oren"
+        app:boxStrokeColor="@color/teal_200"
+        app:boxBackgroundMode="outline">
+
+        <EditText
+            android:id="@+id/etRegisEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppinsmedium"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:hint="@string/email"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="@dimen/pm5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        app:hintTextColor="@color/oren"
+        app:boxStrokeColor="@color/teal_200"
+        app:boxBackgroundMode="outline">
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:hint="@string/phone" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="@dimen/pm5"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        app:hintTextColor="@color/oren"
+        app:boxStrokeColor="@color/teal_200"
+        app:boxBackgroundMode="outline">
+
+        <EditText
+            android:id="@+id/etRegisPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:textSize="15dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:hint="@string/pass"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/pm5"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:padding="@dimen/pm10"
+        android:textColor="@color/black"
+        android:text="@string/register"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:text="@string/log"/>
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/pm5"
+            android:text="@string/log2"/>
+
+    </LinearLayout>
+
+</LinearLayout>

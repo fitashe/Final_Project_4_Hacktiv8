@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@+id/search_navigation">
+
+    <fragment
+        android:id="@+id/homepageContainer"
+        android:name="com.hacktiv8.buxfinalproject3.HomePageActivity"
+        android:label="Home"
+        tools:layout="@layout/activity_home_page" >
+        <action
+            android:id="@+id/action_homepageContainer_to_search_navigation"
+            app:destination="@id/search_navigation" />
+        <action
+            android:id="@+id/action_homepageContainer_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+        <action
+            android:id="@+id/action_homepageContainer_to_navigation_ticket2"
+            app:destination="@id/navigation_ticket" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/search_navigation"
+        android:name="com.hacktiv8.buxfinalproject3.fragment.SearchFragmentActivity"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_ticket"
+        android:name="com.hacktiv8.buxfinalproject3.fragment.TicketFragment"
+        android:label="@string/ticket"
+        tools:layout="@layout/fragment_ticket" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.hacktiv8.buxfinalproject3.fragment.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>

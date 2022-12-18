@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">BuxFinalProject3</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="welcome">Bux is a online booking service for Bus transportation. login now to user Bux services.</string>
+    <string name="reg">Not Registered? </string>
+    <string name="reg2">Sign Up here</string>
+    <string name="username">Username</string>
+    <string name="phone">Phone Number</string>
+    <string name="log">Already have an account?</string>
+    <string name="log2">Sign In here</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_illustrator">Image Illustrator</string>
+    <string name="departure_locations">Departure Locations</string>
+    <string name="arrival_locations">Arrival Locations</string>
+    <string name="departure">Departure</string>
+    <string name="arrival">Arrival</string>
+    <string name="str_sign_up">Sign up with google</string>
+    <string name="passenger">passenger</string>
+    <string name="passengers">Passengers</string>
+    <string name="try_departure">Try “Semarang”</string>
+    <string name="try_arrival">Try “Solo”</string>
+    <string name="ppl">1 ppl</string>
+    <string name="date">Date</string>
+    <string name="select_date">Select date</string>
+    <string name="search_bus">Search Bus</string>
+    <string name="cancel">Cancel</string>
+    <string name="select">select</string>
+    <string name="title_sliding">Select how much passenger</string>
+    <string name="sliding_description">Older than 2 years old should buy a seat</string>
+    <string name="str_a">A</string>
+    <string name="str_b">B</string>
+    <string name="str_c">C</string>
+    <string name="str_d">D</string>
+    <string name="str_1">1</string>
+    <string name="str_2">2</string>
+    <string name="str_3">3</string>
+    <string name="str_4">4</string>
+    <string name="str_5">5</string>
+    <string name="str_6">6</string>
+    <string name="str_7">7</string>
+    <string name="str_8">8</string>
+    <string name="str_9">9</string>
+    <string name="str_10">10</string>
+    <string name="title_search">Search</string>
+    <string name="title_ticket">My Ticket</string>
+    <string name="title_profil">Profile</string>
+
+    <string name="ticket">Ticket</string>
+    <string name="profile">Profile</string>
+    <string name="str_try_departure">Semarang</string>
+    <string name="str_try_arrival">Bandung</string>
+    <string name="str_select_date">Select date</string>
+    <string name="str_hide_number">**** **** **** ****</string>
+    <string name="str_month">Month</string>
+    <string name="str_year">Year</string>
+    <string name="str_vcc">VCC</string>
+    <string name="str_credit_description">Last three digit on your card</string>
+    <string name="str_bank_steps_first">1. Select transfer\n2. In sub menu select virtual account transfer\n3. Type this number in the field </string>
+    <string name="payment">Payment</string>
+    <string name="total_payment">Total payment</string>
+    <string name="harga">Rp332.333,00</string>
+    <string name="note_total_payment">please select one of the payment method below</string>
+    <string name="bank_transfer">Bank transfer</string>
+    <string name="bni_mobile_banking">BNI Mobile banking</string>
+    <string name="cimb_mobile_banking">CIMB Niaga Mobile banking</string>
+    <string name="credit_card">Credit card</string>
+    <string name="retail_payment">Retail payment</string>
+    <string name="card_number">Card number</string>
+    <string name="valid_until">Valid until</string>
+    <string name="Card_holder">Card holder</string>
+    <string name="surename">Surename</string>
+    <string name="verify_payment">Verify Payment</string>
+    <string name="rating">Rating</string>
+    <string name="_8_7_5">8.7/5</string>
+    <string name="terminal_asal">Terminal Terboyo</string>
+    <string name="_17_00">17.00</string>
+    <string name="_2_hours">-- 2 hours --</string>
+    <string name="too">-- to --</string>
+    <string name="surabaya">Surabaya</string>
+    <string name="terminal_Tirtonadi">Terminal Tirtonadi</string>
+    <string name="_19_00">19.00</string>
+    <string name="friday_10_des_2020">Friday, 10 Des 2020</string>
+    <string name="_2_passengers">2 Passengers</string>
+    <string name="available_seat">Available seat</string>
+    <string name="_24_seat_are_available">24 Seat are available</string>
+    <string name="economy">Economy</string>
+    <string name="classs">Class</string>
+    <string name="facility">Facility</string>
+
+    <string-array name="Asal">
+        <item>-- Departure --</item>
+        <item>Semarang</item>
+        <item>Solo</item>
+        <item>Surabaya</item>
+        <item>Bandung</item>
+        <item>Jakarta</item>
+    </string-array>
+
+    <string-array name="Tujuan">
+        <item>-- Arrival --</item>
+        <item>Semarang</item>
+        <item>Solo</item>
+        <item>Surabaya</item>
+        <item>Bandung</item>
+        <item>Jakarta</item>
+    </string-array>
+</resources>

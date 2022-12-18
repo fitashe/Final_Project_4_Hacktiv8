@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="oren">#E6FF9800</color>
+    <color name="primary">#693BB8</color>
+    <color name="primaryLight">#8749F2</color>
+    <color name="primaryDark">#53328B</color>
+    <color name="secondary">#FFD03D</color>
+    <color name="secondaryVariant">#F1C539</color>
+    <color name="primary_pressed">#3939FF</color>
+    <color name="lightGrey">#EAEAEA</color>
+    <color name="textGrey">#808080</color>
+    <color name="secondaryGrey">#D8D8D8</color>
+    <color name="grayEd">#EDEDED</color>
+    <color name="gray64">#646464</color>
+    <color name="grayFA">#FAFAFA</color>
+    <color name="brown">#8C6F12</color>
+    <color name="yellow">#FFC821</color>
+    <color name="red_500">#E94852</color>
+    <color name="grey_700">#585858</color>
+    <color name="gray_64">#646464</color>
+    <color name="grey_ad">#ADADAD</color>
+    <color name="gray_ed">#EDEDED</color>
+    <color name="gray_e5">#E5E5E5</color>
+    <color name="blue_light">#569CE0</color>
+    <color name="blue_hover">#0505D4</color>
+
+    <color name="title">#0A0A0A</color>
+    <color name="subtitle">#2B2B2B</color>
+    <color name="text">#ADADAD</color>
+    <color name="label">#585858</color>
+    <color name="icon">#E94852</color>
+    <color name="bg">#F4F4F4</color>
+</resources>

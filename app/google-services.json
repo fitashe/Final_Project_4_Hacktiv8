@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "409108499004",
+    "project_id": "buxfinalproject3",
+    "storage_bucket": "buxfinalproject3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409108499004:android:8f6f38050563a744d45139",
+        "android_client_info": {
+          "package_name": "com.hacktiv8.buxfinalproject3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409108499004-2iqfiblb3uli6liboolo9jtcd6i4o44j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hacktiv8.buxfinalproject3",
+            "certificate_hash": "9cd772d038a8ea38222618ee20271a618d06fb41"
+          }
+        },
+        {
+          "client_id": "409108499004-bch1fn7pi53mqja9qk294hbgp5qb7mdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmbANAOrw0mCGXgaEBQZcVNfPassVp-ho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409108499004-bch1fn7pi53mqja9qk294hbgp5qb7mdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
